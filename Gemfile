@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 gem 'spree', '~> 3.0', '>= 3.0.8'
 gem 'spree_auth_devise', '~> 3.0.5'
 gem 'spree_gateway', '~> 3.0.0'
+gem 'puma'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.1'
@@ -57,5 +58,5 @@ end
 
 end
 
-
+ruby '2.2.1'
 
